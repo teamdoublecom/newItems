@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A41C6CB1D34CB9B00C96BB8 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A41C6B01D34CB9B00C96BB8 /* HomeViewController.m */; };
+		6A41C6CC1D34CB9B00C96BB8 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A41C6B11D34CB9B00C96BB8 /* HomeViewController.xib */; };
+		6A41C6CD1D34CB9B00C96BB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A41C6BB1D34CB9B00C96BB8 /* AppDelegate.m */; };
+		6A41C6CE1D34CB9B00C96BB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A41C6BD1D34CB9B00C96BB8 /* main.m */; };
 		85F54C4E1D348108009B18FD /* WuTuojia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 85F54C4C1D348108009B18FD /* WuTuojia.xcdatamodeld */; };
 		85F54C501D348108009B18FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85F54C4F1D348108009B18FD /* Assets.xcassets */; };
 		85F54C531D348108009B18FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85F54C511D348108009B18FD /* LaunchScreen.storyboard */; };
 		85F54C5E1D348108009B18FD /* WuTuojiaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F54C5D1D348108009B18FD /* WuTuojiaTests.m */; };
 		85F54C691D348108009B18FD /* WuTuojiaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F54C681D348108009B18FD /* WuTuojiaUITests.m */; };
-		85F54CAE1D348210009B18FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F54C9B1D348210009B18FD /* AppDelegate.m */; };
-		85F54CAF1D348210009B18FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F54C9D1D348210009B18FD /* main.m */; };
-		85F54CB41D348692009B18FD /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F54CB21D348692009B18FD /* HomeViewController.m */; };
-		85F54CB51D348692009B18FD /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85F54CB31D348692009B18FD /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A41C6AF1D34CB9B00C96BB8 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		6A41C6B01D34CB9B00C96BB8 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		6A41C6B11D34CB9B00C96BB8 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		6A41C6BA1D34CB9B00C96BB8 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6A41C6BB1D34CB9B00C96BB8 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6A41C6BD1D34CB9B00C96BB8 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../main.m; sourceTree = "<group>"; };
 		85F54C3D1D348108009B18FD /* WuTuojia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WuTuojia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85F54C4D1D348108009B18FD /* WuTuojia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WuTuojia.xcdatamodel; sourceTree = "<group>"; };
 		85F54C4F1D348108009B18FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,12 +53,6 @@
 		85F54C641D348108009B18FD /* WuTuojiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WuTuojiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85F54C681D348108009B18FD /* WuTuojiaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WuTuojiaUITests.m; sourceTree = "<group>"; };
 		85F54C6A1D348108009B18FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		85F54C9A1D348210009B18FD /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		85F54C9B1D348210009B18FD /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		85F54C9D1D348210009B18FD /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		85F54CB11D348692009B18FD /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		85F54CB21D348692009B18FD /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		85F54CB31D348692009B18FD /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +80,211 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A41C6AC1D34CB9B00C96BB8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6A41C6CF1D34CD7500C96BB8 /* user(用户) */,
+				6A41C6AD1D34CB9B00C96BB8 /* Home(首页) */,
+				6A41C6B91D34CB9B00C96BB8 /* Main(基础) */,
+				6A41C6C31D34CB9B00C96BB8 /* 分类 */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6A41C6AD1D34CB9B00C96BB8 /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				6A41C6AE1D34CB9B00C96BB8 /* Controller */,
+				6A41C6B21D34CB9B00C96BB8 /* Model */,
+				6A41C6B31D34CB9B00C96BB8 /* View */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		6A41C6AE1D34CB9B00C96BB8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6A41C6AF1D34CB9B00C96BB8 /* HomeViewController.h */,
+				6A41C6B01D34CB9B00C96BB8 /* HomeViewController.m */,
+				6A41C6B11D34CB9B00C96BB8 /* HomeViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6A41C6B21D34CB9B00C96BB8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6A41C6B31D34CB9B00C96BB8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6A41C6B91D34CB9B00C96BB8 /* Main(基础) */ = {
+			isa = PBXGroup;
+			children = (
+				6A41C6BA1D34CB9B00C96BB8 /* AppDelegate.h */,
+				6A41C6BB1D34CB9B00C96BB8 /* AppDelegate.m */,
+				6A41C6BC1D34CB9B00C96BB8 /* Controller */,
+				6A41C6BE1D34CB9B00C96BB8 /* Model */,
+				6A41C6C21D34CB9B00C96BB8 /* View */,
+				6A41C6BF1D34CB9B00C96BB8 /* Other */,
+			);
+			path = "Main(基础)";
+			sourceTree = "<group>";
+		};
+		6A41C6BC1D34CB9B00C96BB8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6A41C6BE1D34CB9B00C96BB8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6A41C6BF1D34CB9B00C96BB8 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				6A41C6BD1D34CB9B00C96BB8 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		6A41C6C01D34CB9B00C96BB8 /* 三方 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "三方";
+			path = "Classes/Main(基础)/Other/三方";
+			sourceTree = "<group>";
+		};
+		6A41C6C11D34CB9B00C96BB8 /* 图片 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "图片";
+			path = "Classes/Main(基础)/Other/图片";
+			sourceTree = "<group>";
+		};
+		6A41C6C21D34CB9B00C96BB8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6A41C6C31D34CB9B00C96BB8 /* 分类 */ = {
+			isa = PBXGroup;
+			children = (
+				6A41C6C41D34CB9B00C96BB8 /* Controller */,
+				6A41C6C51D34CB9B00C96BB8 /* Model */,
+				6A41C6C61D34CB9B00C96BB8 /* View */,
+				6A41C6C71D34CB9B00C96BB8 /* 商品 */,
+				6A41C6C81D34CB9B00C96BB8 /* 我搭 */,
+				6A41C6C91D34CB9B00C96BB8 /* 灵感 */,
+				6A41C6CA1D34CB9B00C96BB8 /* 资讯 */,
+			);
+			path = "分类";
+			sourceTree = "<group>";
+		};
+		6A41C6C41D34CB9B00C96BB8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6A41C6C51D34CB9B00C96BB8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6A41C6C61D34CB9B00C96BB8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6A41C6C71D34CB9B00C96BB8 /* 商品 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "商品";
+			sourceTree = "<group>";
+		};
+		6A41C6C81D34CB9B00C96BB8 /* 我搭 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "我搭";
+			sourceTree = "<group>";
+		};
+		6A41C6C91D34CB9B00C96BB8 /* 灵感 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "灵感";
+			sourceTree = "<group>";
+		};
+		6A41C6CA1D34CB9B00C96BB8 /* 资讯 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "资讯";
+			sourceTree = "<group>";
+		};
+		6A41C6CF1D34CD7500C96BB8 /* user(用户) */ = {
+			isa = PBXGroup;
+			children = (
+				6A41C6D01D34CD7500C96BB8 /* Controller */,
+				6A41C6D11D34CD7500C96BB8 /* Model */,
+				6A41C6D21D34CD7500C96BB8 /* View */,
+				6A41C6D31D34CD7500C96BB8 /* 注册登入 */,
+			);
+			path = "user(用户)";
+			sourceTree = "<group>";
+		};
+		6A41C6D01D34CD7500C96BB8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6A41C6D11D34CD7500C96BB8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6A41C6D21D34CD7500C96BB8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6A41C6D31D34CD7500C96BB8 /* 注册登入 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "注册登入";
+			sourceTree = "<group>";
+		};
 		85F54C341D348108009B18FD = {
 			isa = PBXGroup;
 			children = (
@@ -103,11 +308,7 @@
 		85F54C3F1D348108009B18FD /* WuTuojia */ = {
 			isa = PBXGroup;
 			children = (
-				85F54C761D348210009B18FD /* Classes */,
-				85F54C4F1D348108009B18FD /* Assets.xcassets */,
-				85F54C511D348108009B18FD /* LaunchScreen.storyboard */,
-				85F54C541D348108009B18FD /* Info.plist */,
-				85F54C4C1D348108009B18FD /* WuTuojia.xcdatamodeld */,
+				6A41C6AC1D34CB9B00C96BB8 /* Classes */,
 				85F54C401D348108009B18FD /* Supporting Files */,
 			);
 			path = WuTuojia;
@@ -116,6 +317,12 @@
 		85F54C401D348108009B18FD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6A41C6C01D34CB9B00C96BB8 /* 三方 */,
+				6A41C6C11D34CB9B00C96BB8 /* 图片 */,
+				85F54C541D348108009B18FD /* Info.plist */,
+				85F54C4C1D348108009B18FD /* WuTuojia.xcdatamodeld */,
+				85F54C4F1D348108009B18FD /* Assets.xcassets */,
+				85F54C511D348108009B18FD /* LaunchScreen.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -136,419 +343,6 @@
 				85F54C6A1D348108009B18FD /* Info.plist */,
 			);
 			path = WuTuojiaUITests;
-			sourceTree = "<group>";
-		};
-		85F54C761D348210009B18FD /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				85F54C771D348210009B18FD /* Other */,
-				85F54C851D348210009B18FD /* 分类 */,
-				85F54C991D348210009B18FD /* 基础 */,
-				85F54CA21D348210009B18FD /* 用户 */,
-				85F54CAA1D348210009B18FD /* 首页 */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		85F54C771D348210009B18FD /* Other */ = {
-			isa = PBXGroup;
-			children = (
-				85F54C781D348210009B18FD /* 三方 */,
-				85F54C7C1D348210009B18FD /* 分类 */,
-				85F54C801D348210009B18FD /* 图片 */,
-				85F54C811D348210009B18FD /* 通用 */,
-			);
-			path = Other;
-			sourceTree = "<group>";
-		};
-		85F54C781D348210009B18FD /* 三方 */ = {
-			isa = PBXGroup;
-			children = (
-				85F54C791D348210009B18FD /* Controller */,
-				85F54C7A1D348210009B18FD /* Model */,
-				85F54C7B1D348210009B18FD /* View */,
-			);
-			path = "三方";
-			sourceTree = "<group>";
-		};
-		85F54C791D348210009B18FD /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		85F54C7A1D348210009B18FD /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		85F54C7B1D348210009B18FD /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		85F54C7C1D348210009B18FD /* 分类 */ = {
-			isa = PBXGroup;
-			children = (
-				85F54C7D1D348210009B18FD /* Controller */,
-				85F54C7E1D348210009B18FD /* Model */,
-				85F54C7F1D348210009B18FD /* View */,
-			);
-			path = "分类";
-			sourceTree = "<group>";
-		};
-		85F54C7D1D348210009B18FD /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		85F54C7E1D348210009B18FD /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		85F54C7F1D348210009B18FD /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		85F54C801D348210009B18FD /* 图片 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "图片";
-			sourceTree = "<group>";
-		};
-		85F54C811D348210009B18FD /* 通用 */ = {
-			isa = PBXGroup;
-			children = (
-				85F54C821D348210009B18FD /* Controller */,
-				85F54C831D348210009B18FD /* Model */,
-				85F54C841D348210009B18FD /* View */,
-			);
-			path = "通用";
-			sourceTree = "<group>";
-		};
-		85F54C821D348210009B18FD /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		85F54C831D348210009B18FD /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		85F54C841D348210009B18FD /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		85F54C851D348210009B18FD /* 分类 */ = {
-			isa = PBXGroup;
-			children = (
-				85F54C861D348210009B18FD /* Controller */,
-				85F54C871D348210009B18FD /* Model */,
-				85F54C881D348210009B18FD /* View */,
-				85F54C891D348210009B18FD /* 商品 */,
-				85F54C8D1D348210009B18FD /* 我搭 */,
-				85F54C911D348210009B18FD /* 灵感 */,
-				85F54C951D348210009B18FD /* 资讯 */,
-			);
-			path = "分类";
-			sourceTree = "<group>";
-		};
-		85F54C861D348210009B18FD /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		85F54C871D348210009B18FD /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		85F54C881D348210009B18FD /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		85F54C891D348210009B18FD /* 商品 */ = {
-			isa = PBXGroup;
-			children = (
-				85F54C8A1D348210009B18FD /* Controller */,
-				85F54C8B1D348210009B18FD /* Model */,
-				85F54C8C1D348210009B18FD /* View */,
-			);
-			path = "商品";
-			sourceTree = "<group>";
-		};
-		85F54C8A1D348210009B18FD /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		85F54C8B1D348210009B18FD /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		85F54C8C1D348210009B18FD /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		85F54C8D1D348210009B18FD /* 我搭 */ = {
-			isa = PBXGroup;
-			children = (
-				85F54C8E1D348210009B18FD /* Controller */,
-				85F54C8F1D348210009B18FD /* Model */,
-				85F54C901D348210009B18FD /* View */,
-			);
-			path = "我搭";
-			sourceTree = "<group>";
-		};
-		85F54C8E1D348210009B18FD /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		85F54C8F1D348210009B18FD /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		85F54C901D348210009B18FD /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		85F54C911D348210009B18FD /* 灵感 */ = {
-			isa = PBXGroup;
-			children = (
-				85F54C921D348210009B18FD /* Controller */,
-				85F54C931D348210009B18FD /* Model */,
-				85F54C941D348210009B18FD /* View */,
-			);
-			path = "灵感";
-			sourceTree = "<group>";
-		};
-		85F54C921D348210009B18FD /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		85F54C931D348210009B18FD /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		85F54C941D348210009B18FD /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		85F54C951D348210009B18FD /* 资讯 */ = {
-			isa = PBXGroup;
-			children = (
-				85F54C961D348210009B18FD /* Controller */,
-				85F54C971D348210009B18FD /* Model */,
-				85F54C981D348210009B18FD /* View */,
-			);
-			path = "资讯";
-			sourceTree = "<group>";
-		};
-		85F54C961D348210009B18FD /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		85F54C971D348210009B18FD /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		85F54C981D348210009B18FD /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		85F54C991D348210009B18FD /* 基础 */ = {
-			isa = PBXGroup;
-			children = (
-				85F54C9A1D348210009B18FD /* AppDelegate.h */,
-				85F54C9B1D348210009B18FD /* AppDelegate.m */,
-				85F54C9C1D348210009B18FD /* Controller */,
-				85F54C9D1D348210009B18FD /* main.m */,
-				85F54C9E1D348210009B18FD /* Model */,
-				85F54C9F1D348210009B18FD /* View */,
-			);
-			path = "基础";
-			sourceTree = "<group>";
-		};
-		85F54C9C1D348210009B18FD /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		85F54C9E1D348210009B18FD /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		85F54C9F1D348210009B18FD /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		85F54CA21D348210009B18FD /* 用户 */ = {
-			isa = PBXGroup;
-			children = (
-				85F54CA31D348210009B18FD /* Controller */,
-				85F54CA41D348210009B18FD /* Model */,
-				85F54CA51D348210009B18FD /* View */,
-				85F54CA61D348210009B18FD /* 登录注册 */,
-			);
-			path = "用户";
-			sourceTree = "<group>";
-		};
-		85F54CA31D348210009B18FD /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		85F54CA41D348210009B18FD /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		85F54CA51D348210009B18FD /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		85F54CA61D348210009B18FD /* 登录注册 */ = {
-			isa = PBXGroup;
-			children = (
-				85F54CA71D348210009B18FD /* Controller */,
-				85F54CA81D348210009B18FD /* Model */,
-				85F54CA91D348210009B18FD /* View */,
-			);
-			path = "登录注册";
-			sourceTree = "<group>";
-		};
-		85F54CA71D348210009B18FD /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		85F54CA81D348210009B18FD /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		85F54CA91D348210009B18FD /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		85F54CAA1D348210009B18FD /* 首页 */ = {
-			isa = PBXGroup;
-			children = (
-				85F54CAB1D348210009B18FD /* Controller */,
-				85F54CAC1D348210009B18FD /* Model */,
-				85F54CAD1D348210009B18FD /* View */,
-			);
-			path = "首页";
-			sourceTree = "<group>";
-		};
-		85F54CAB1D348210009B18FD /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				85F54CB11D348692009B18FD /* HomeViewController.h */,
-				85F54CB21D348692009B18FD /* HomeViewController.m */,
-				85F54CB31D348692009B18FD /* HomeViewController.xib */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		85F54CAC1D348210009B18FD /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		85F54CAD1D348210009B18FD /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -656,7 +450,7 @@
 			files = (
 				85F54C531D348108009B18FD /* LaunchScreen.storyboard in Resources */,
 				85F54C501D348108009B18FD /* Assets.xcassets in Resources */,
-				85F54CB51D348692009B18FD /* HomeViewController.xib in Resources */,
+				6A41C6CC1D34CB9B00C96BB8 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -681,10 +475,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85F54CAE1D348210009B18FD /* AppDelegate.m in Sources */,
-				85F54CAF1D348210009B18FD /* main.m in Sources */,
 				85F54C4E1D348108009B18FD /* WuTuojia.xcdatamodeld in Sources */,
-				85F54CB41D348692009B18FD /* HomeViewController.m in Sources */,
+				6A41C6CB1D34CB9B00C96BB8 /* HomeViewController.m in Sources */,
+				6A41C6CE1D34CB9B00C96BB8 /* main.m in Sources */,
+				6A41C6CD1D34CB9B00C96BB8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
